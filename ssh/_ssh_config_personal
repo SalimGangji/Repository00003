@@ -1,0 +1,15 @@
+Host dev-machine
+  Hostname localhost
+  User ansible
+  IdentityFile ~/.ssh/ansible.pem
+  Port 8022
+Host github.com
+  StrictHostKeyChecking no
+  User git
+  IdentityFile ~/.ssh/github.pem
+  UserKnownHostsFile /dev/null
+Host gitlab.com
+  StrictHostKeyChecking no
+  User git
+  IdentityFile ~/.ssh/gitlab.pem
+  UserKnownHostsFile /dev/null
