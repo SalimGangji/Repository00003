@@ -14,9 +14,9 @@
 ##---------------------------------------
 ## Theming
 ##---------------------------------------
-import-module posh-git
-import-module oh-my-posh
-set-poshprompt -theme PowerLevel10k_Classic
+#import-module posh-git
+#import-module oh-my-posh
+#set-poshprompt -theme PowerLevel10k_Classic
 
 ##---------------------------------------
 ## Variables
