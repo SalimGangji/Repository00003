@@ -9,7 +9,7 @@ set-psreadlineoption -Colors @{"String"=[ConsoleColor]::Red}
 set-psreadlineoption -Colors @{"Number"=[ConsoleColor]::DarkMagenta};
 set-psreadlineoption -Colors @{"Member"=[ConsoleColor]::Blue}
 set-psreadlineoption -Colors @{"Parameter"=[ConsoleColor]::DarkGray}
-set-psreadlineoption -Colors @{"Type"=[ConsoleColor]::DarkMagenta}
+set-psreadlineoption -Colors @{"Type"=[ConsoleColor]::Magenta}
 set-psreadlineoption -Colors @{"Comment"=[ConsoleColor]::Blue}
 set-psreadlineoption -Colors @{"Default"=[ConsoleColor]::Gray}
 #get-psreadlineoption
