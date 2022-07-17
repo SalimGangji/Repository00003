@@ -28,8 +28,9 @@ import-module googlecloud
 ##---------------------------------------
 ## colours for when using "Solarized Light" Windows Terminal theme
 ##---------------------------------------
-set-psreadlineoption -Colors @{"Member"=[ConsoleColor]::Magenta}
-set-psreadlineoption -Colors @{"Parameter"=[ConsoleColor]::DarkMagenta}
+Set-PSReadLineOption -Colors @{"Member"=[ConsoleColor]::Magenta}
+Set-PSReadLineOption -Colors @{"Parameter"=[ConsoleColor]::DarkMagenta}
+Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkBlue}
 
 ##---------------------------------------
 ## useful snippet for seeing what colours look like in your current Windows Terminal theme
