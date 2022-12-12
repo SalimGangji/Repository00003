@@ -23,7 +23,7 @@ New-Alias ll "get-childitem"
 ##---------------------------------------
 ## gcp
 ##---------------------------------------
-import-module googlecloud
+#import-module googlecloud
 
 ##---------------------------------------
 ## colours for when using "Solarized Light" Windows Terminal theme
