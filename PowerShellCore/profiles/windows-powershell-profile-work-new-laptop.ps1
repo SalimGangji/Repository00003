@@ -21,9 +21,14 @@ $repos = "${everything}\repos"
 New-Alias ll "get-childitem"
 
 ##---------------------------------------
-## gcp
+## gcp (module depricated)
 ##---------------------------------------
-#import-module googlecloud
+# import-module googlecloud
+
+##---------------------------------------
+## required if using gcloud
+##---------------------------------------
+$PSNativeCommandArgumentPassing = "Legacy"
 
 ##---------------------------------------
 ## colours for when using "Solarized Light" Windows Terminal theme
