@@ -14,9 +14,9 @@
 ##---------------------------------------
 ## Theming
 ##---------------------------------------
-#import-module posh-git
-#import-module oh-my-posh
-#set-poshprompt -theme PowerLevel10k_Classic
+# import-module posh-git
+# import-module oh-my-posh
+# set-poshprompt -theme PowerLevel10k_Classic
 
 ##---------------------------------------
 ## Variables
@@ -30,9 +30,14 @@ $repos = "${devMaster}\repos"
 New-Alias ll "get-childitem"
 
 ##---------------------------------------
-## gcp
+## gcp (module depricated)
 ##---------------------------------------
-import-module googlecloud
+# import-module googlecloud
+
+##---------------------------------------
+## required if using gcloud
+##---------------------------------------
+$PSNativeCommandArgumentPassing = "Legacy"
 
 ##---------------------------------------
 ## colours for when using "Solarized Light" Windows Terminal theme
