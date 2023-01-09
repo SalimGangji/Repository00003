@@ -39,15 +39,15 @@ Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkBlue}
 
 # https://learn.microsoft.com/en-us/powershell/module/psreadline/set-psreadlineoption?view=powershell-7.3#example-4-set-multiple-color-options
 Set-PSReadLineOption -Colors @{
-  Command            = 'Magenta'
-  Number             = 'DarkBlue'
-  Member             = 'DarkGray'
-  Operator           = 'DarkGray'
-  Type               = 'DarkGray'
-  Variable           = 'DarkGreen'
-  Parameter          = 'DarkMagenta'
-  ContinuationPrompt = 'DarkGray'
-  String             = 'Cyan'
+  Command            = [ConsoleColor]::Magenta
+  Number             = [ConsoleColor]::DarkBlue
+  Member             = [ConsoleColor]::DarkGray
+  Operator           = [ConsoleColor]::DarkGray
+  Type               = [ConsoleColor]::DarkGray
+  Variable           = [ConsoleColor]::DarkGreen
+  Parameter          = [ConsoleColor]::DarkMagenta
+  ContinuationPrompt = [ConsoleColor]::DarkGray
+  String             = [ConsoleColor]::Cyan
   Default            = 'DarkGray'
 }
 
