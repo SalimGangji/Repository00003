@@ -37,7 +37,7 @@ Set-PSReadLineOption -Colors @{"Member"=[ConsoleColor]::Magenta}
 Set-PSReadLineOption -Colors @{"Parameter"=[ConsoleColor]::DarkMagenta}
 Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkBlue}
 
-
+# https://learn.microsoft.com/en-us/powershell/module/psreadline/set-psreadlineoption?view=powershell-7.3#example-4-set-multiple-color-options
 Set-PSReadLineOption -Colors @{
   Command            = 'Magenta'
   Number             = 'DarkBlue'
