@@ -37,6 +37,21 @@ Set-PSReadLineOption -Colors @{"Member"=[ConsoleColor]::Magenta}
 Set-PSReadLineOption -Colors @{"Parameter"=[ConsoleColor]::DarkMagenta}
 Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkBlue}
 
+
+Set-PSReadLineOption -Colors @{
+  Command            = 'Magenta'
+  Number             = 'DarkBlue'
+  Member             = 'DarkGray'
+  Operator           = 'DarkGray'
+  Type               = 'DarkGray'
+  Variable           = 'DarkGreen'
+  Parameter          = 'DarkMagenta'
+  ContinuationPrompt = 'DarkGray'
+  String             = 'Cyan'
+  Default            = 'DarkGray'
+}
+
+
 ##---------------------------------------
 ## useful snippet for seeing what colours look like in your current Windows Terminal theme
 ##---------------------------------------
