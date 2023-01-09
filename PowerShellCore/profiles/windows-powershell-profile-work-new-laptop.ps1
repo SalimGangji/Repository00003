@@ -51,7 +51,6 @@ Set-PSReadLineOption -Colors @{
   Default            = 'DarkGray'
 }
 
-
 ##---------------------------------------
 ## useful snippet for seeing what colours look like in your current Windows Terminal theme
 ##---------------------------------------
