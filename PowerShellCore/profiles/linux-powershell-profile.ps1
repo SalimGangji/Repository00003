@@ -14,6 +14,12 @@ set-psreadlineoption -Colors @{"Comment"=[ConsoleColor]::Blue}
 set-psreadlineoption -Colors @{"Default"=[ConsoleColor]::Gray}
 #get-psreadlineoption
 
+# https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797#color-codes
+# https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/using-light-theme?view=powershell-7.3
+$PSStyle.Formatting.Verbose            = "`e[38;5;166m"
+# https://github.com/PowerShell/PowerShell/issues/16441
+# $Host.PrivateData.VerboseForegroundColor = 'Cyan'
+
 ##---------------------------------------
 ## useful snippet for seeing what colours look like in your current terminal
 ##---------------------------------------
