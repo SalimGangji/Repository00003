@@ -5,7 +5,7 @@
 
 New-Alias -name "ll" -value "Get-ChildItem"
 Set-PSReadLineOption -Colors @{"Command"=[ConsoleColor]::DarkCyan};
-Set-PSReadLineOption -Colors @{"String"=[ConsoleColor]::Green}
+Set-PSReadLineOption -Colors @{"String"=[ConsoleColor]::Cyan}
 Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkMagenta};
 Set-PSReadLineOption -Colors @{"Member"=[ConsoleColor]::Blue}
 Set-PSReadLineOption -Colors @{"Parameter"=[ConsoleColor]::DarkGray}
