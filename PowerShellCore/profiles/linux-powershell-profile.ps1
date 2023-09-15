@@ -3,16 +3,16 @@
 # but you can set the profile location to anything you like
 # Once the profile is in place, any newly created pwsh session will use the profile settings
 
-new-alias -name "ll" -value "get-childitem"
-set-psreadlineoption -Colors @{"Command"=[ConsoleColor]::DarkCyan};
-set-psreadlineoption -Colors @{"String"=[ConsoleColor]::Red}
-set-psreadlineoption -Colors @{"Number"=[ConsoleColor]::DarkMagenta};
-set-psreadlineoption -Colors @{"Member"=[ConsoleColor]::Blue}
-set-psreadlineoption -Colors @{"Parameter"=[ConsoleColor]::DarkGray}
-set-psreadlineoption -Colors @{"Type"=[ConsoleColor]::Magenta}
-set-psreadlineoption -Colors @{"Comment"=[ConsoleColor]::Blue}
-set-psreadlineoption -Colors @{"Default"=[ConsoleColor]::Gray}
-#get-psreadlineoption
+New-Alias -name "ll" -value "Get-ChildItem"
+Set-PSReadLineOption -Colors @{"Command"=[ConsoleColor]::DarkCyan};
+Set-PSReadLineOption -Colors @{"String"=[ConsoleColor]::Green}
+Set-PSReadLineOption -Colors @{"Number"=[ConsoleColor]::DarkMagenta};
+Set-PSReadLineOption -Colors @{"Member"=[ConsoleColor]::Blue}
+Set-PSReadLineOption -Colors @{"Parameter"=[ConsoleColor]::DarkGray}
+Set-PSReadLineOption -Colors @{"Type"=[ConsoleColor]::Magenta}
+Set-PSReadLineOption -Colors @{"Comment"=[ConsoleColor]::Blue}
+Set-PSReadLineOption -Colors @{"Default"=[ConsoleColor]::Gray}
+#Get-PSReadLineOption
 
 # https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797#color-codes
 # https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/using-light-theme?view=powershell-7.3
