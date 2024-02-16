@@ -3,6 +3,11 @@
 # https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
 # https://coderwall.com/p/3hp3cw/custom-coloring-using-gitconfig
 
+# the long and the short of it is that you basically cannot use ANSI escape codes inside gitconfig
+# you essentially have to use the hexadecimal notation
+# [color "decorate"]
+#     tag = "#aa0000" bold
+
 # also note that in Putty, to get the terminal to show bold as bold
 # you will need to go into Window >> Colours >> Indicate bold text by setting the value to: [The font] or [Both] instead of [The colour]
 
