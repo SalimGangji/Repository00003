@@ -1,3 +1,52 @@
+# helpful links
+# https://stackoverflow.com/questions/69112016/how-to-use-ansi-256-color-in-gitconfig
+# https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
+
+# From ChatGPT:
+
+# Top Level Color Options
+
+# color.branch: Controls the color of branch names.
+# color.diff: Controls the color of diff output.
+# color.status: Controls the color of file status output.
+# color.decorate: Controls the color of commit decorations (e.g., tags, remote branches).
+# color.ui: Controls the overall colorization of Git's output.
+# color.interactive: Controls the color of interactive commands (e.g., git add -i).
+# color.grep: Controls the color of git grep output.
+# color.showbranch: Controls the color of git show-branch output.
+# color.pager: Controls the color of the pager used for displaying Git output.
+
+# Second Level Color Options
+
+# color.branch.auto = always
+# color.branch.current = yellow
+# color.branch.local = green
+# color.branch.remote = red
+# color.decorate.branch = bold
+# color.decorate.tag = green bold
+# color.diff.commit = yellow bold
+# color.diff.frag = magenta bold
+# color.diff.func = cyan bold
+# color.diff.meta = yellow
+# color.diff.new = green
+# color.diff.old = red
+# color.diff.whitespace = red reverse
+# color.grep.context = yellow
+# color.grep.filename = magenta
+# color.grep.function = cyan
+# color.grep.linenumber = yellow
+# color.grep.match = bold
+# color.interactive.prompt = cyan
+# color.interactive.success = green
+# color.interactive.error = red
+# color.pager = true
+# color.showbranch.current = yellow reverse
+# color.showbranch.local = green
+# color.showbranch.remote = red
+# color.status.added = green
+# color.status.changed = yellow
+# color.status.untracked = red
+
 [core]
     editor = vim
 [help]
