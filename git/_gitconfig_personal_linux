@@ -1,6 +1,10 @@
 # helpful links
 # https://stackoverflow.com/questions/69112016/how-to-use-ansi-256-color-in-gitconfig
 # https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
+# https://coderwall.com/p/3hp3cw/custom-coloring-using-gitconfig
+
+# also note that in Putty, to get the terminal to show bold as bold
+# you will need to go into Window >> Colours >> Indicate bold text by setting the value to: [The font] or [Both] instead of [The colour]
 
 # From ChatGPT:
 
